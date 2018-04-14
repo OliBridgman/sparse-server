@@ -1,0 +1,25 @@
+{
+  "name": "sparse-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc-watch --onSuccess \"yarn start\"",
+    "build": "tsc",
+    "start": "node build/server.js"
+  },
+  "author": "Oliver Bridgman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.1",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "^0.31.36",
+    "@types/express": "^4.11.1",
+    "tsc-watch": "^1.0.19",
+    "typescript": "^2.8.1"
+  }
+}
