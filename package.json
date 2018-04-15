@@ -12,9 +12,9 @@
   "author": "Oliver Bridgman",
   "license": "ISC",
   "dependencies": {
+    "dotenv-safe": "^5.0.1",
     "express": "^4.16.3",
-    "pg": "^7.4.1",
-    "pg-format": "^1.0.4"
+    "pg-promise": "^8.2.3"
   },
   "devDependencies": {
     "@types/es6-shim": "^0.31.36",
