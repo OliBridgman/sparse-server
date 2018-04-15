@@ -1,4 +1,6 @@
+require("dotenv-safe").config();
 import express from "express";
+import { db } from "./db";
 
 // Create a new express application instance
 const app: express.Application = express();
